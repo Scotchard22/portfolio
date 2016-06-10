@@ -1,5 +1,5 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+
+/* * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -122,7 +122,7 @@ a:active {
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  border: 8px white solid;
+  border: 6px white solid;
  }
 
 #header-text{
@@ -180,6 +180,43 @@ a.image-link:hover{
   font-size: 230%;
   font-weight: 200;
   margin:0 auto !important;
+}
+
+.text_boxes{
+  height: 350px;
+  width: 550px;
+  background-color: #264d73; 
+  margin: 0 auto;
+}
+
+.text_header{
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: underline;
+  color: white; 
+  font-size: 180%;
+}
+
+.text_para{
+  text-align: center;
+  color: white; 
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 110%;
+}
+
+
+/*Media Queries*/
+
+@media all and (max-width:1155px){
+
+.text_boxes{
+  height: 400px !important;
+  width: 450px !important;
+  margin: 0 auto !important;
+}
+
 }
 
 @media all and (max-width:950px){
@@ -250,6 +287,25 @@ a.image-link:hover{
   text-align: center !important;
   font-size: 165% !important;
   }
+
+.text_header{
+  padding-top: 15px !important;
+  font-size: 155% !important;
+}
+
+.text_para{ 
+  padding-top: 35px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  font-size: 100% !important;
+}  
+
+.text_boxes{
+  height: 400px !important;
+  width: 400px !important;
+  margin: 0 auto !important;
+}
+
 }
 
 @media all and (max-width:750px){
@@ -318,6 +374,25 @@ a.image-link:hover{
   text-align: center !important;
   font-size: 145% !important;
   }
+
+.text_header{
+  padding-top: 15px !important;
+  font-size: 135% !important;
+}
+
+.text_para{ 
+  padding-top: 35px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  font-size: 90% !important;
+}  
+
+.text_boxes{
+  height: 350px !important;
+  width: 350px !important;
+  margin: 0 auto !important;
+}
+
 }
 
 /*.slide_title_border{
@@ -392,4 +467,4 @@ figure.show{
  padding: 10px 10px 15px 5px;
  border-top-right-radius: 3px;
  border-bottom-right-radius: 3px;
-}*/
+}
