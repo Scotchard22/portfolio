@@ -234,15 +234,13 @@ a.image-link:hover{
 }
 
 @media all and (max-width:950px){
+
   .col-1{
     width: 100% !important;
   }
   .col-2{
     width: 100% !important;
   }
-}
-
-@media all and (max-width:950px){
 
 .home{
   height: 400px !important;
@@ -313,6 +311,10 @@ a.image-link:hover{
   padding-right: 20px !important;
   font-size: 100% !important;
 }  
+
+.text_para a{
+  color: #ff8080 !important;
+} 
 
 .text_boxes{
   height: 320px !important;
@@ -399,7 +401,11 @@ a.image-link:hover{
   padding-left: 20px !important;
   padding-right: 20px !important;
   font-size: 90% !important;
-}  
+} 
+
+.text_para a{
+  color: #ff8080 !important;
+} 
 
 .text_boxes{
   height: 300px !important;
