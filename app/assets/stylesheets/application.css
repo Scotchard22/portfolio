@@ -265,7 +265,7 @@ a.image-link:hover{
   }
 
 .home{
-  height: 452px !important;
+  height: 455px !important;
   width: 100% !important;
  }
 
@@ -367,7 +367,7 @@ a.image-link:hover{
 @media all and (max-width:750px){
 
   .home{
-  height: 357px !important;
+  height: 360px !important;
   width: 100% !important;
   }  
 
