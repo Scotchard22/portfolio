@@ -100,6 +100,7 @@ body{
 .footer-links a{
   margin: 0 auto;
   padding-right: 40px;
+  padding-left: 40px;
   font-size: 110%;
  }
 
@@ -110,7 +111,8 @@ body{
 
 .header-links a{
   margin: 0 auto;
-  padding-right: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
   font-size: 130%;
  }
 
@@ -285,13 +287,15 @@ a.image-link:hover{
 
 .header-links a{
   margin: 0 auto !important;
-  padding-right: 20px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
   font-size: 120% !important;
  }
 
 .footer-links a{
   margin: 0 auto !important;
   padding-right: 20px !important;
+  padding-left: 20px !important;
   font-size: 115% !important;
   }
 
@@ -387,12 +391,14 @@ a.image-link:hover{
   .header-links a{
   margin: 0 auto !important;
   padding-right: 10px !important;
+  padding-left: 10px !important;
   font-size: 110% !important;
   }
 
   .footer-links a{
   margin: 0 auto !important;
   padding-right: 10px !important;
+  padding-left: 10px !important;
   font-size: 100% !important;
   }
 
