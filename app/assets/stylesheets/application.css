@@ -56,6 +56,10 @@ body{
   width: 100%;
 }
 
+.col-3{
+  width: 50%;
+}
+
 .nav{
   height: 50px !important;
   background-color: #264d73 !important;
@@ -100,7 +104,7 @@ body{
 
 .footer-links{
   text-align: center;
-  padding-top: 8px;
+  padding-top: 10px;
  }
 
 .footer-links a{
@@ -112,7 +116,7 @@ body{
 
 .header-links{
   text-align: center;
-  padding-top: 11px;
+  padding-top: 15px;
  }
 
 .header-links a{
@@ -148,6 +152,79 @@ a:active {
   border: 6px white solid;
  }
 
+ #about_img{
+  height: 350px;
+  width: 350px;
+  border-radius: 10px 10px 10px 10px; 
+  border: 1px solid white;
+  margin-top: 35px;
+ }
+
+ #about-text{
+  text-align: center;
+  color: white;
+ }
+
+ #about_header{
+  font-size: 28px;
+  padding-bottom: 5px;
+ }
+
+ .about_text{
+  font-size: 18px;
+  padding-bottom: 5px;
+ }
+
+ .about_para{
+  text-align: center;
+  color: white; 
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 110%;
+  line-height: 160%;
+}
+
+
+ .about_text a:hover{
+  color: #264d73 !important;
+ }
+
+ .about_btn{
+  background-color: #264d73;
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 140%;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 5px #4E4F4B;
+ }
+
+ .social_icons{
+  height: 40px;
+  width: 40px;
+  margin: 5px 10px 5px 10px;
+ }
+
+ .list_items{
+  text-align: center;
+  color: white; 
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 80%;
+  line-height: 160%;
+ }
+
+ .skill_para{
+  text-align: center;
+  color: white; 
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 100%;
+  line-height: 160%;
+}
+
 #header-text{
   color: white;
   text-align: center;
@@ -167,7 +244,7 @@ hr{
 
 #subtitle{
   font-size: 200%;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 .project-label{
@@ -253,6 +330,14 @@ a.image-link:hover{
   font-size: 100% !important;
 } 
 
+.about_para{
+  padding-top: 5px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 100% !important;
+  line-height: 160% !important;
+}
+
 }
 
 @media all and (max-width:950px){
@@ -312,17 +397,68 @@ a.image-link:hover{
   }
 
 .btn_1{
-  font-size: 100%;
-  padding: 10px 30px;
+  font-size: 100% !important;
+  padding: 10px 30px !important;
 }
 
 .btn_2{
-  font-size: 100%;
-  padding: 10px 30px;
+  font-size: 100% !important;
+  padding: 10px 30px !important;
 }
 
-  .project-label{
-  text-align: center;
+#about_img{
+  height: 250px !important;
+  width: 250px !important;
+  margin-top: 15px !important;
+}
+
+ #about_header{
+  font-size: 22px !important;
+  padding-bottom: 5px !important;
+ }
+
+ .about_text{
+  font-size: 14px !important;
+  padding-bottom: 5px !important;
+ }
+
+  .about_para{
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 100% !important;
+  line-height: 160% !important;
+}
+
+.about_btn{
+  width: 100% !important;
+  padding: 10px 30px !important;
+  font-size: 100% !important;
+ }
+
+  .list_items{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 73% !important;
+  line-height: 160% !important;
+ }
+
+.skill_para{
+  padding-top: 25px !important;
+  padding-bottom: 5px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 80% !important;
+  line-height: 160% !important;
+}
+
+.social_icons{
+  height: 35px !important;
+  width: 35px !important;
+  margin: 5px 10px 5px 10px !important;
+ }
+
+.project-label{
   padding-top: 20px !important;
   font-size: 140% !important
 }
@@ -336,7 +472,6 @@ a.image-link:hover{
 
 .slide_title{
   margin:0 auto !important;
-  text-align: center !important;
   font-size: 165% !important;
   }
 
@@ -394,6 +529,41 @@ a.image-link:hover{
   padding-bottom: 10px !important;
   }
 
+#about_img{
+  height: 160px !important;
+  width: 160px !important;
+  margin-top: 15px !important;
+}
+
+ #about_header{
+  font-size: 18px !important;
+  padding-bottom: 5px !important;
+ }
+
+ .about_text{
+  font-size: 12px !important;
+  padding-bottom: 5px !important;
+ }
+
+.about_btn{
+  width: 100% !important;
+  padding: 10px 20px !important;
+  font-size: 80% !important;
+ }
+
+.list_items{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 65% !important;
+  line-height: 160% !important;
+ }
+
+.social_icons{
+  height: 25px !important;
+  width: 25px !important;
+  margin: 5px 10px 5px 10px !important;
+ }
+
   .project-img{
   height: 200px !important;
   width: 300px !important;
@@ -449,6 +619,13 @@ a.image-link:hover{
   color: #ff8080 !important;
 } 
 
+.list_items a{
+  color: #ff8080 !important;
+} 
+
+.about_text a{
+  color: #264d73 !important;
+}
 .text_boxes{
   height: 300px !important;
   width: 350px !important;
