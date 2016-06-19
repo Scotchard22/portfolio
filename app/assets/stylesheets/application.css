@@ -22,7 +22,7 @@
 
 body{
   background-color: #d9e6f2;
-}
+} 
 
 .grid-container *{
   width: 100%;
@@ -42,7 +42,6 @@ body{
   min-height: 1px;
   width: 50%;
   padding: 12px;
-
   margin: 0 auto;
   text-align: center;
 }
@@ -51,10 +50,6 @@ body{
   width: 50%;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.col-3{
-  width: 50%;
 }
 
 .col-2{
@@ -66,16 +61,35 @@ body{
   background-color: #264d73 !important;
 }
 
+ #footer{
+  height: 40px;
+  width: 100%;
+  background-color:  #264d73;
+ }
+
  .home{
   background-color: #ff8080;
   height: 610px;
   width: 100%;
  }
 
- #footer{
-  height: 40px;
+ .btn_1{
+  background-color: #264d73;
   width: 100%;
-  background-color:  #264d73;
+  padding: 10px 40px;
+  font-size: 140%;
+  margin-right: 20px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 5px #4E4F4B;
+ }
+
+ .btn_2{
+  background-color: #264d73;
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 140%;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 10px 10px 5px #4E4F4B;
  }
 
 .footer-links{
@@ -129,7 +143,7 @@ a:active {
 #header-text{
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
  }
 
 #title{
@@ -160,7 +174,7 @@ hr{
   height: 250px;
   width: 400px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px #4E4F4B;
   display: inline-block;
 }
 
@@ -243,12 +257,12 @@ a.image-link:hover{
   }
 
 .home{
-  height: 400px !important;
+  height: 568px !important;
   width: 100% !important;
  }
 
 #header-text{
-  padding-top: 50px !important;
+  padding-top: 80px !important;
  }
 
 #header-image{
@@ -280,6 +294,16 @@ a.image-link:hover{
   padding-right: 20px !important;
   font-size: 115% !important;
   }
+
+.btn_1{
+  font-size: 100%;
+  padding: 10px 30px;
+}
+
+.btn_2{
+  font-size: 100%;
+  padding: 10px 30px;
+}
 
   .project-label{
   text-align: center;
@@ -327,12 +351,12 @@ a.image-link:hover{
 @media all and (max-width:750px){
 
   .home{
-  height: 355px !important;
+  height: 568px !important;
   width: 100% !important;
   }  
 
   #header-text{
-  padding-top: 30px !important;
+  padding-top: 100px !important;
   }
 
   #header-image{
