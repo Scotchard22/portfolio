@@ -204,7 +204,7 @@ a.image-link:hover{
   width: 550px;
   background-color: #264d73; 
   margin: 0 auto;
-  border-radius: 10%;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .text_header{
