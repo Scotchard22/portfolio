@@ -24,6 +24,10 @@ body{
   background-color: #d9e6f2;
 } 
 
+.hidden{
+  display: none;
+}
+
 .grid-container *{
   width: 100%;
   max-width: 1600px;

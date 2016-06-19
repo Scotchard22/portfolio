@@ -2,11 +2,11 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
+  resources :contacts, only: [:new, :create]
+
   get '/about', to: 'static_pages#about', as: 'about'
 
   get '/work', to: 'static_pages#work', as: 'work'
-
-  get '/contact', to: 'static_pages#contact', as: 'contact'
 
   get '/chorehero', to: 'static_pages#chorehero', as: 'chorehero'
 

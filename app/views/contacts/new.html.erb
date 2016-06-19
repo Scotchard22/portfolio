@@ -1,0 +1,38 @@
+<div class="grid-container">
+  <div class="row">
+    <div class="home">
+    </div>
+  </div>
+
+  <div class='contact_body'>
+    <div id="contact_wrapper">
+      <%= form_for @contact do |f| %>
+        <h2 id='contact_header'>LEAVE US A MESSAGE</h2>
+
+          <br><br>
+
+        <div class='contact_div'>
+          <%= f.text_field :name, :class => "contact_input", :placeholder => "Name*", required: true %>
+        </div>
+          <br>
+
+        <div class='contact_div'>
+          <%= f.email_field :email, :class => "contact_input", :placeholder => "Email*", required: true %>
+        </div>
+      
+          <br>
+        <div class='contact_div'>
+          <%= f.text_area :message, :id => "message", :placeholder => "We would love for you to leave us a message!", as: :text %>
+        </div>  
+      
+          <div class="hidden">
+            <%= f.label :nickname, :class => "contact_labels" %><br>
+            <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
+          </div>
+        <div class='contact_div'>
+          <%= f.submit 'Send Message', class: "submit_form btn btn-default" %>
+        </div>  
+      <% end %>
+    </div> 
+  </div>
+</div>      
