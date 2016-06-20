@@ -4,18 +4,30 @@
     </div>
   </div>
 
-      <%= form_for @contact do |f| %>
+  <div class="row">
+    <div class="col-2">
+      <div class="contact_form">
 
-          <%= f.text_field :name, :class => "contact_input", :placeholder => "Name*", required: true %>
+        <p id="contact_header">Interested? Send Me an Email!</p>
 
-          <%= f.email_field :email, :class => "contact_input", :placeholder => "Email*", required: true %>
-      
-          <%= f.text_area :message, :id => "message", :placeholder => "We would love for you to leave us a message!", as: :text %>
-      
-          <div class="hidden">
-            <%= f.label :nickname, :class => "contact_labels" %><br>
-            <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
-          </div> 
+        <%= form_for @contact do |f| %>
+        
+        <%= f.text_field :name, :class => "contact_input", :placeholder => "Name*", required: true %>
+        <br/>
+        <%= f.email_field :email, :class => "contact_input", :placeholder => "Email*", required: true %>
+        <br/>
+        <%= f.text_area :message, :id => "message", :placeholder => "Leave Me a Message!", as: :text %>
+        <br/>
+        <div class="hidden">
+          <%= f.label :nickname, :class => "contact_labels" %><br>
+          <%= f.text_field :nickname, :class => "contact_input", hint: 'leave this field blank' %>
+        </div> 
 
-          <%= f.submit 'Send Message', class: "submit" %>
+        <%= f.submit 'Send Message', class: "submit_btn" %>
       <% end %>
+      </div> 
+    </div>
+  </div>
+</div>    
+
+     
