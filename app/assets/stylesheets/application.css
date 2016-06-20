@@ -369,6 +369,19 @@ a.image-link:hover{
   -webkit-appearance: none;
 }
 
+#thanks_header{
+  color: white;
+  font-size: 240%;
+  padding-top: 220px;
+}
+
+
+#thanks_para{
+  color: white;
+  font-size: 120%;
+  padding-top: 15px;
+}
+
 /*Media Queries*/
 
 @media all and (max-width:1155px){
@@ -597,6 +610,19 @@ a.image-link:hover{
   padding-top: 80px !important;
 }
 
+#thanks_header{
+  color: white;
+  font-size: 200%;
+  padding-top: 220px;
+}
+
+
+#thanks_para{
+  color: white;
+  font-size: 100%;
+  padding-top: 15px;
+}
+
 }
 
 @media all and (max-width:750px){
@@ -761,6 +787,19 @@ a.image-link:hover{
   height: 300px !important;
   width: 100% !important;
  }
+
+ #thanks_header{
+  color: white;
+  font-size: 160%;
+  padding-top: 220px;
+}
+
+
+#thanks_para{
+  color: white;
+  font-size: 100%;
+  padding-top: 15px;
+}
 
 }
 
