@@ -773,8 +773,9 @@ a.image-link:hover{
 }
 
 .submit_btn{
-  font-size: 120%;
-  width: 140px;
+  font-size: 120% !important;
+  width: 140px !important;
+  background-color: #C9C9C9 !important;
 }
 
 .contact_img{
@@ -789,16 +790,14 @@ a.image-link:hover{
  }
 
  #thanks_header{
-  color: white;
-  font-size: 160%;
-  padding-top: 220px;
+  font-size: 160% !important;
+  padding-top: 220px !important;
 }
 
 
 #thanks_para{
-  color: white;
-  font-size: 100%;
-  padding-top: 15px;
+  font-size: 100% !important;
+  padding-top: 15px !important;
 }
 
 }
